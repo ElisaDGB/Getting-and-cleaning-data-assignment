@@ -98,3 +98,8 @@ The data
 
 ## Changes to the original data
 The script used to obtain the tidy data is the "Run_analysis.R" from this repository.
+- First. Train, test, feature and activity labels files are loaded in R. Feature list is used to rename the variable names of both data frames (train and test).
+- Second. Activity labels are used to bindo the data frames of test and train. Labels are then replaced by more descriptive names.
+- Third. Subjects are now loaded and binded to the test and train data frames.
+- Fourth. Merge both data frames together.
+- Fifth. dplyr package is used to group merged data frame by subject and activity and written to tidyset.txt in the working directory.
