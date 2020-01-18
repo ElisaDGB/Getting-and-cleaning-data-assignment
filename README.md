@@ -10,7 +10,7 @@ This readme file collect the explanation related to how the downloaded data was 
 ## Steps 
 
 - First. Train, test, feature and activity labels files are loaded in R. Feature list is used to rename the variable names of both data frames (train and test).
-- Second. Activity labels are loaded and binded to the data frames of test and train. Labels are then replaced by more descriptive names.
+- Second. Activity labels are used to bindo the data frames of test and train. Labels are then replaced by more descriptive names.
 - Third. Subjects are now loaded and binded to the test and train data frames.
-- Fourth. Merge both data frames together
+- Fourth. Merge both data frames together.
 - Fifth. dplyr package is used to group merged data frame by subject and activity and written to tidyset.txt in the working directory.
