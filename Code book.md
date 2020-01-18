@@ -11,6 +11,7 @@ The data
 
 ## Variables
 |Index |  Variables|
+|-------|----------|
 |	1	|	subjectId	|
 |	2	|	activityId	|
 |	3	|	tBodyAcc-mean()-X	|
